@@ -51,4 +51,4 @@
 ## 4. 영상 튜토리얼
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
 " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="바이컨 영상 튜토" width="240" height="180" border="10" /></a>
+alt="바이컨 영상 튜토리얼" width="240" height="180" border="10" /></a>
