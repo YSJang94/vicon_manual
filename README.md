@@ -27,12 +27,14 @@
   2. SET VOLUME ORIGIN 탭에서 START 눌러서 원점 기준 잡기
 
 ## 2. 새로운 물체 등록하기
-   웬만하면 4개 이상의 마커 사용, 많을수록 좋음  
-   보통 3~4개로 한 평면 구성 (비대칭적으로 부착해야함), 나머지 1개는 평면에 수직인 곳에 부착  
-   평면의 무게중심에 object 원점이 잡힘(?), yaw는 물체 등록 시 놓인 방향을 기준으로 설정됨  
-   원하는 물체의 바이컨 마커를 CTRL 클릭해서 선택  
-   OBJECT 탭에서 물체 등록 (이름 설정하고 확인)  
-   OBJECT 탭에서 check 표시 토글해서 원하는 물체의 pose만 읽을 수 있음  
+* 마커 붙이는 요령
+  1. 웬만하면 4개 이상의 마커 사용, 많을수록 좋음  
+  2. 보통 3~4개로 한 평면 구성 (비대칭적으로 부착해야함), 나머지 1개는 평면에 수직인 곳에 부착  
+  *평면의 무게중심에 object 원점이 잡힘(?), yaw는 물체 등록 시 놓인 방향을 기준으로 설정됨*  
+* 등록하기
+  1. 원하는 물체의 바이컨 마커를 CTRL 클릭해서 선택  
+  2. OBJECT 탭에서 물체 등록 (이름 설정하고 확인)  
+  3. OBJECT 탭에서 check 표시 토글해서 원하는 물체의 pose만 읽을 수 있음  
 
 ## 3. ROS로 바이컨 토픽 받기
 * ROS 설정하기
@@ -49,4 +51,4 @@
 ## 4. 영상 튜토리얼
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
 " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+alt="바이컨 영상 튜토" width="240" height="180" border="10" /></a>
