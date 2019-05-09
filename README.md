@@ -46,7 +46,7 @@
 * 바이컨 연결하기
   1. roslaunch vicon_bridge 명령으로 ros node 실행
   2. rostopic list로 바이컨에서 쏘는 TF 토픽을(vicon/<object_name>/) 찾고 rostopic <topic_name> echo로 실시간 확인이 가능함 (id,t,x,y,z,qx,qy,qz,qw – 위치랑 쿼터니언 등 제공)  
-   *(optional) txt나 rosbag으로 저장해서 추후 가공*  
+  3. *(optional) txt나 rosbag으로 저장해서 추후 가공*  
 
 ## 4. 영상 튜토리얼
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
