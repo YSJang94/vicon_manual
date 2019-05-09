@@ -17,7 +17,7 @@
    카메라가 제대로 잡히면 프레임이 초록색으로 바뀜  
    마우스 우클릭으로 줌, 좌클릭으로 뷰포인트 바꾸기, 동시 클릭해서 translation  
 * 카메라 보정하기
-  1. CALIBRATE CAMERS 탭에서START 눌러 보정 시작
+  1. CALIBRATE CAMERS 탭에서 START 눌러 보정 시작
   2. WAND를 카메라 앞에서 흔들어서 보정
   3. WAND COUNT 최소 4000 넘겨야,  이상적으로는 10000 이상 (중요)
   4. 3D 뷰, 카메라 뷰(지정된 카메라에 찍히는 마커) 등을 선택할 수 있음
@@ -46,7 +46,7 @@
 * 바이컨 연결하기
   1. roslaunch vicon_bridge 명령으로 ros node 실행
   2. rostopic list로 바이컨에서 쏘는 TF 토픽을(vicon/<object_name>/) 찾고 rostopic <topic_name> echo로 실시간 확인이 가능함 (id,t,x,y,z,qx,qy,qz,qw – 위치랑 쿼터니언 등 제공)  
-  3. *(optional) txt나 rosbag으로 저장해서 추후 가공*  
+  3. *(optional)* txt나 rosbag으로 저장해서 추후 가공  
 
 ## 4. 영상 튜토리얼
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
